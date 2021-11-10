@@ -58,7 +58,7 @@ const ColorTabs = ({ classes, isConnected, isDataEntered, getData}: any) => {
           value === 'swap' && <Swap isConnected={isConnected} isDataEntered={isDataEntered} getData={getData} />
         }
         {
-          value === 'pool' && <Box sx={{ padding: 20 }}>
+          value === 'pool' && <Box sx={{ padding: '50px 20px', textAlign: 'center' }}>
             <Typography variant="h4">Coming soon !!!</Typography>
           </Box>
         }
