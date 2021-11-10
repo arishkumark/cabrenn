@@ -1,0 +1,6 @@
+
+.mainContainer {
+  background: url('/assets/background.jpg');
+  min-height: 150vh;
+  padding-top: 24px;
+}
